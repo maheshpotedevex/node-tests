@@ -1,0 +1,16 @@
+{
+    "name": "tests",
+    "version": "1.0.0",
+    "description": "Learn Test cases",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha **/*.test.js",
+        "test-watch": "nodemon --exec \"npm test \" "
+    },
+    "author": "Mahesh Pote",
+    "license": "ISC",
+    "devDependencies": {
+        "expect": "^1.20.0",
+        "mocha": "^5.2.0"
+    }
+}

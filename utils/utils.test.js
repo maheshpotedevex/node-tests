@@ -22,11 +22,11 @@ it('Should square a numeric value', () => {
 
 it('Should set firstname and lastname', () => {
     var user = { location: "Nandurbar", age: 28 };
-    var res = utils.setName(user, "Mahesh Pote");
+    var res = utils.setName(user, "Lalit Pote");
 
     expect(user).toEqual(res);
     expect(user).toInclude({
-        firstName: "Mahesh",
+        firstName: "Lalit",
         lastName: "Pote"
     });
 });

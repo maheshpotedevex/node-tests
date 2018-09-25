@@ -7,7 +7,7 @@
         "test": "mocha **/*.test.js",
         "test-watch": "nodemon --exec \"npm test \" "
     },
-    "author": "Mahesh Pote",
+    "author": "Mahesh Marathe",
     "license": "ISC",
     "devDependencies": {
         "expect": "^1.20.0",

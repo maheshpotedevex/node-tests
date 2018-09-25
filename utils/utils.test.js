@@ -11,6 +11,23 @@ it('should add two numbers', () => {
     // }
 });
 
+// Asynchronus testing 
+it('should async two numbers', (done) => {
+    utils.async(4, 5, (res) => {
+        expect(res).toBe(9).toBeA('number');
+        done(); // When callback finished.
+    });
+});
+
+
+// Async square function
+it('Should async square a numeric value', (done) => {
+    utils.asyncSquare(3, (res) => {
+        expect(res).toBe(9).toBeA('number');
+        done();
+    });
+});
+
 it('Should square a numeric value', () => {
     var res = utils.square(3);
 

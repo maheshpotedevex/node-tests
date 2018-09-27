@@ -42,9 +42,6 @@ describe('Utils', () => {
         // }
     });
 });
-
-
-
 it('Should set firstname and lastname', () => {
     var user = { location: "Nandurbar", age: 28 };
     var res = utils.setName(user, "Lalit Pote");

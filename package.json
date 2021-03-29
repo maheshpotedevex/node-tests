@@ -10,13 +10,13 @@
     "author": "Mahesh Marathe",
     "license": "ISC",
     "devDependencies": {
-        "expect": "^1.20.0",
+        "expect": "^1.20.2",
         "mocha": "^5.2.0",
         "rewire": "^2.5.2",
         "supertest": "^2.0.1"
     },
     "dependencies": {
-        "express": "^4.16.3",
+        "express": "^4.17.1",
         "install": "^0.12.1"
     }
 }
